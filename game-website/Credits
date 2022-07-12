@@ -1,0 +1,55 @@
+<!Doctype html>
+<html lang= "en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8"/>
+        <title> Gustavo Selemem | 3042264 </title>
+        <link rel = "styleSheet" href ="Style.css"/>
+    </head>
+
+<div>
+
+<body>
+
+
+<section id="fifth-section">
+
+ <nav id="menu">
+         <ul>
+             <li> <a href= "Index.html" target="_blank"> Home </a> </li>
+             <li> <a href= "About.html" target="_blank"> About </a> </li>
+             <li> <a href= "Instructions.html" target="_blank"> Instructions </a> </li>
+             <li> <a href= "Gallery.html" target="_blank"> Gallery </a> </li>
+             <li> <a href= "Credits.html" target="_blank"> Credits </a> </li>
+             <li> <a href= "Contact.html" target="_blank"> Contact </a> </li>
+             <li> <a href= "PlayNow.html" target="_blank"> Play </a> </li>
+         </ul>
+       </nav>
+
+<img class="logo" src="Media/Logo.gif" width="60px" height="60px" alt = "Logo" title = "Logo">
+
+<div class="column9">
+
+<p> </p>
+
+</div>
+
+
+<div class="column10">
+
+<h2> CREDITS </h2>
+
+<p> <strong> ARTHUR SANTANA | 3048447 </strong></p>
+<p> Game Developer and emotionally bankrupt</p>
+
+<p> ------------------------------------------------------------ </p>
+
+<p> <strong>GUSTAVO SELEMEM | 3042264 </strong></p>
+<p>Graphic Designer and sad latino boy</p>
+
+</div>
+
+</section>
+
+</body>
+</div>

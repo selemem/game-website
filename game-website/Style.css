@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0; 
+}
+
+section {
+  width: 100%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
+}
+
+#first-section {
+	background-color: black;
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#first-section nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#first-section nav a {
+	font-family: 'Press Start 2P';
+	font-size: 40px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+}
+
+#first-section nav a button {
+	font-family: 'Press Start 2P';
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	background-color:#904029;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+#first-section nav a:hover {
+  	color: #314152;
+}
+
+#first-section nav a button:hover {
+  	background-color: #314152;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding-top: 200px;
+  padding-left: 40px;
+  height: 300px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding-top: 120px;
+  padding-left: 70px;
+  height: 300px;
+}
+
+
+
+
+
+#second-section {
+	background-image: url(Media/Background-About.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#second-section nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#second-section nav a {
+	font-family: 'Press Start 2P';
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+#second-section nav {
+	padding-top: 20px;
+}
+
+#second-section nav a:hover {
+  	color: #904029;
+}
+
+#second-section img {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+#second-section h2 {
+	font-family: 'Press Start 2P';
+	font-size: 30px;
+	color: white;
+}
+
+#second-section p {
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	line-height: 25px;
+}
+
+.column3 {
+  float: left;
+  width: 50%;
+  padding-top: 140px;
+  padding-left: 60px;
+  padding-right: 50px;
+  height: 300px;
+}
+
+.column4 {
+  float: left;
+}
+
+
+
+
+
+#third-section {
+	background-color: black;
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#third-section nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#third-section nav a {
+	font-family: 'Press Start 2P';
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+#third-section nav {
+	padding-top: 20px;
+}
+
+#third-section nav a:hover {
+  	color: #904029;
+}
+
+#third-section img {
+	margin-top: 75px;
+}
+
+#third-section .logo{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	margin-top: 0;
+}
+
+#third-section h2 {
+	font-family: 'Press Start 2P';
+	font-size: 30px;
+	color: white;
+}
+
+
+#third-section p {
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	line-height: 20px;
+}
+
+
+.column5 {
+	width:8%;
+	float:left;
+	padding-top: 20px;
+  	padding-left: 30px;
+  	padding-right: 10px;
+}
+
+.column6 {
+	width:42%;
+	float:left;
+	padding-left: 20px;
+	padding-right:30px;
+	padding-top: 60px;
+}
+
+.column7 {
+	width:8%;
+	float:left;
+	padding-top: 20px;
+  	padding-left: 30px;
+  	padding-right: 10px;
+}
+
+.column8 {
+	width:42%;
+	float:left;
+	padding-left: 20px;
+	padding-right:30px;
+	padding-top: 60px;
+}
+
+
+
+
+
+#fourth-section {
+	background-color: black;
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#fourth-section nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#fourth-section nav a {
+	font-family: 'Press Start 2P';
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+#fourth-section nav {
+	padding-top: 20px;
+}
+
+#fourth-section nav a:hover {
+  	color: #904029;
+}
+
+#fourth-section .logo{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	margin-top: 0;
+}
+
+#fourth-section {
+	background-color: black;
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#fourth-section .container {
+ 	display:grid;
+ 	width:1000px;
+ 	margin:1rem auto;
+ 	grid-template-columns:200fr 200fr 200fr 200fr;
+ 	grid-template-rows: repeat 20%;
+ 	grid-gap:10px;
+ 	padding-top: 20px;
+}
+
+
+
+
+
+#fifth-section {
+	background-image: url(Media/Background-Credits.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#fifth-section nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#fifth-section nav a {
+	font-family: 'Press Start 2P';
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+#fifth-section nav {
+	padding-top: 20px;
+}
+
+#fifth-section nav a:hover {
+  	color: #904029;
+}
+
+#fifth-section img {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+#fifth-section h2 {
+	font-family: 'Press Start 2P';
+	font-size: 30px;
+	color: white;
+}
+
+#fifth-section p strong{
+	font-family: 'Press Start 2P';
+	font-size: 15px;
+	color: white;
+	line-height: 25px;
+}
+
+#fifth-section p {
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	line-height: 25px;
+}
+
+.column9 {
+  float: left;
+}
+
+.column10 {
+  float: right;
+  width: 50%;
+  padding-top: 140px;
+  padding-left: 50px;
+  padding-right: 60px;
+  height: 300px;
+}
+
+
+
+
+
+#sixth-section {
+	background-image: url(Media/Background-Contact.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#sixth-section nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#sixth-section nav a {
+	font-family: 'Press Start 2P';
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+#sixth-section nav {
+	padding-top: 20px;
+}
+
+#sixth-section nav a:hover {
+  	color: #904029;
+}
+
+#sixth-section img {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+#sixth-section h2 {
+	font-family: 'Press Start 2P';
+	font-size: 30px;
+	color: white;
+}
+
+.column11 {
+  float: left;
+  width: 50%;
+  padding-top:40px;
+  padding-left: 60px;
+  padding-right: 50px;
+  height: 300px;
+}
+
+.column12 {
+  float: left;
+}
+
+form #name {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #904029;
+  margin-bottom: 16px; 
+}
+
+form #email {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #904029;
+  margin-bottom: 16px; 
+}
+
+form #message {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #904029;
+  margin-bottom: 16px; 
+}
+
+#sixth-section .container button {
+	font-family: 'Press Start 2P';
+	font-size: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	background-color:#904029;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#sixth-section .container button:hover {
+  	background-color: #314152;
+}
+
+#container2 {
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+}

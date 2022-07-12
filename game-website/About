@@ -1,0 +1,49 @@
+<!Doctype html>
+<html lang= "en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8"/>
+        <title> Gustavo Selemem | 3042264 </title>
+        <link rel = "styleSheet" href ="Style.css"/>
+    </head>
+
+<div>
+
+<body>
+
+
+<section id="second-section">
+
+        <nav id="menu">
+         <ul>
+             <li> <a href= "Index.html" target="_blank"> Home </a> </li>
+             <li> <a href= "About.html" target="_blank"> About </a> </li>
+             <li> <a href= "Instructions.html" target="_blank"> Instructions </a> </li>
+             <li> <a href= "Gallery.html" target="_blank"> Gallery </a> </li>
+             <li> <a href= "Credits.html" target="_blank"> Credits </a> </li>
+             <li> <a href= "Contact.html" target="_blank"> Contact </a> </li>
+             <li> <a href= "PlayNow.html" target="_blank"> Play </a> </li>
+         </ul>
+       </nav>
+
+<img class="logo" src="Media/Logo.gif" width="60px" height="60px" alt = "Logo" title = "Logo">
+
+<div class="column3">
+
+<h2> ABOUT </h2>
+
+<p>Aimee is a work in progress survival game based inspired by the likes of MineCraft, Stardew Valley and Runescape. </p>
+<p>The game is currently in it`s alpha stage and only the bare basic mechanics are currently implemented. We intend to develop it as time progresses throughout our university years.</p>
+
+</div>
+
+<div class="column4">
+
+<p> </p>
+
+</div>
+
+</section>
+
+</body>
+</div>

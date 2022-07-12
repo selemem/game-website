@@ -1,0 +1,85 @@
+<!Doctype html>
+<html lang= "en">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Gustavo Selemem | 3042264 </title>
+        <link rel = "styleSheet" href ="Style.css"/>
+    </head>
+
+<div>
+
+<body>
+
+
+
+<section id="sixth-section">
+
+ <nav id="menu">
+         <ul>
+             <li> <a href= "Index.html" target="_blank"> Home </a> </li>
+             <li> <a href= "About.html" target="_blank"> About </a> </li>
+             <li> <a href= "Instructions.html" target="_blank"> Instructions </a> </li>
+             <li> <a href= "Gallery.html" target="_blank"> Gallery </a> </li>
+             <li> <a href= "Credits.html" target="_blank"> Credits </a> </li>
+             <li> <a href= "Contact.html" target="_blank"> Contact </a> </li>
+             <li> <a href= "PlayNow.html" target="_blank"> Play </a> </li>
+         </ul>
+       </nav>
+
+<img class="logo" src="Media/Logo.gif" width="60px" height="60px" alt = "Logo" title = "Logo">
+
+
+
+<div class="column11">
+
+<h2> Contact </h2>
+
+<div class="container">
+
+        <form id="frm">
+        <input id = "name" type="text" name="Name" value="Name"> <br>
+        <input id = "email" type="text" name="E-Mail" value="E-Mail"> <br>
+        <input id = "message" type="text" name="Message" value="" style="height:200px"> <br>
+        </form> 
+
+    <button onclick="myFunction()"> Submmit </button>
+
+    <p id="container2"></p>
+
+    <script>
+        
+        function myFunction() {
+        var form = document.getElementById("message","name","email").value;
+
+        if (form == "") {
+
+        document.getElementById("container2").innerHTML = "Make sure all the spaces are filled corectly.";
+        } 
+
+        else {
+        document.getElementById("container2").innerHTML = "Thank you for getting in touch!";
+        }
+        console.log(form)
+        }
+
+</script>
+
+ 
+</div>
+
+</div>
+
+
+
+<div class="column12">
+    
+ <p> </p>
+
+</div>
+
+</section>
+
+</body>
+</div>
+
+
